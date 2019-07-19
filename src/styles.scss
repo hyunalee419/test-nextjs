@@ -1,0 +1,8 @@
+:root {
+  --some-color: red
+}
+$font-size: 100px;
+.example {
+  font-size: $font-size;
+  color: var(--some-color);
+}
